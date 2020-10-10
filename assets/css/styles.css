@@ -1,5 +1,9 @@
 @import url("./fonts/fonts.css");
 
+@import url("./header/header.css");
+
+@import url("./colors/colors.css");
+
 h1 {
   font-family: "DancingScript-Bold";
 }
