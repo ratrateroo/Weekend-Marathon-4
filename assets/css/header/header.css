@@ -9,7 +9,7 @@
 }
 
 .o-header {
-  height: 3.5rem;
+  height: 4rem;
   background-color: var(--Shadow-Green);
   color: var(--Cloudy-White);
   display: flex;
@@ -21,6 +21,8 @@
 
 .c-navigation {
   width: 80%;
+  display: flex;
+  flex-direction: row;
 }
 
 .c-navigation__items {
@@ -33,8 +35,21 @@
   align-items: center;
 }
 
-.c-navigation__item svg {
+.c-navigation__item:hover {
+  color: var(--Old-Leaf);
+}
+
+.c-navigation__logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.c-navigation__logo-holder {
+  width: 3rem;
+  height: 3rem;
+}
+
+.c-navigation__logo-holder svg {
   fill: var(--Cloudy-White);
-  width: 2.5rem;
-  height: 2.5rem;
 }
