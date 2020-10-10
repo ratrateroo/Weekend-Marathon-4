@@ -1,0 +1,76 @@
+/* Tangerine Fonts */
+
+@font-face {
+  font-family: Tangerine-Bold;
+  src: url("../../fonts/Tangerine/Tangerine-Bold.ttf");
+}
+@font-face {
+  font-family: Tangerine-Regular;
+  src: url("../../fonts/Tangerine/Tangerine-Regular.ttf");
+}
+
+/* El_Messiri Fonts */
+
+@font-face {
+  font-family: ElMessiri-Bold;
+  src: url("../../fonts/El_Messiri/ElMessiri-Bold.ttf");
+}
+
+@font-face {
+  font-family: ElMessiri-Medium;
+  src: url("../../fonts/El_Messiri/ElMessiri-Medium.ttf");
+}
+
+@font-face {
+  font-family: ElMessiri-Regular;
+  src: url("../../fonts/El_Messiri/ElMessiri-Regular.ttf");
+}
+
+@font-face {
+  font-family: ElMessiri-SemiBold;
+  src: url("../../fonts/El_Messiri/ElMessiri-SemiBold.ttf");
+}
+
+/* EB_Garamond Fonts */
+
+@font-face {
+  font-family: EBGaramond-Bold;
+  src: url("../../fonts/EB_Garamond/static/EBGaramond-Bold.ttf");
+}
+
+@font-face {
+  font-family: EBGaramond-Medium;
+  src: url("../../fonts/EB_Garamond/static/EBGaramond-Medium.ttf");
+}
+
+@font-face {
+  font-family: EBGaramond-Regular;
+  src: url("../../fonts/EB_Garamond/static/EBGaramond-Regular.ttf");
+}
+
+@font-face {
+  font-family: EBGaramond-SemiBold;
+  src: url("../../fonts/EB_Garamond/static/EBGaramond-SemiBold.ttf");
+}
+
+/* Dancing Script Fonts */
+
+@font-face {
+  font-family: DancingScript-Bold;
+  src: url("../../fonts/Dancing_Script/static/DancingScript-Bold.ttf");
+}
+
+@font-face {
+  font-family: DancingScript-Medium;
+  src: url("../../fonts/Dancing_Script/static/DancingScript-Medium.ttf");
+}
+
+@font-face {
+  font-family: DancingScript-Regular;
+  src: url("../../fonts/Dancing_Script/static/DancingScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: DancingScript-SemiBold;
+  src: url("../../fonts/Dancing_Script/static/DancingScript-SemiBold.ttf");
+}
