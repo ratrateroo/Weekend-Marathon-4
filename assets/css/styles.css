@@ -2,6 +2,8 @@
 
 @import url("./header/header.css");
 
+@import url("./booking/booking.css");
+
 @import url("./colors/colors.css");
 
 h1 {
