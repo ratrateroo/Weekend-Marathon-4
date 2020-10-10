@@ -1,0 +1,40 @@
+:root {
+  --Cloudy-White: #e1dfd5;
+  --Shadow-Green: #0f1a0b;
+  --Mossy-Green: #36461f;
+  --Old-Leaf: #6b704b;
+  --Muddy-Grass: #424025;
+  --Stone-Gray: #a7b0a2;
+  --Limestone: #848561;
+}
+
+.o-header {
+  height: 3.5rem;
+  background-color: var(--Shadow-Green);
+  color: var(--Cloudy-White);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  width: 100%;
+}
+
+.c-navigation {
+  width: 80%;
+}
+
+.c-navigation__items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "ElMessiri-Bold";
+  justify-content: space-around;
+  align-items: center;
+}
+
+.c-navigation__item svg {
+  fill: var(--Cloudy-White);
+  width: 2.5rem;
+  height: 2.5rem;
+}
