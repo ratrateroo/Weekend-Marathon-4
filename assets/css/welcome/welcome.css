@@ -1,5 +1,88 @@
 .c-welcome {
+  position: relative;
   height: 100vh;
   width: 100vw;
+  /* background-color: var(--Cloudy-White); */
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: center;
+}
+
+.c-welcome__holder {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.c-welcome__title {
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  margin: 5rem auto;
+}
+
+.c-welcome__title-content {
+  font-family: "DancingScript-Regular";
+  font-family: "Tangerine-Regular";
+  font-family: "ElMessiri-SemiBold";
+  font-family: "EBGaramond-Regular";
+  font-size: 3rem;
+  text-align: center;
+  line-height: 6rem;
+  z-index: 1;
+  position: relative;
   background-color: var(--Cloudy-White);
+}
+
+.c-welcome__title-content::before {
+  border-top: 2px solid var(--Stone-Gray);
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+
+.c-welcome__title-content span {
+  background-color: var(--Cloudy-White);
+  padding: 0 3rem;
+}
+
+.c-welcome__message {
+  width: 100%;
+}
+
+.c-welcome__message-content {
+  font-family: "DancingScript-SemiBold";
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.c-welcome__images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-welcome__image-holder {
+  width: 25vw;
+  height: 25vw;
+  background-color: pink;
+}
+
+.c-welcome__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }

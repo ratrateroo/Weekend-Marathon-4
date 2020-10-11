@@ -33,17 +33,17 @@
 
 .c-booking__banner-title {
   color: var(--Shadow-Green);
-  font-family: "ElMessiri-SemiBold";
+  /* font-family: "ElMessiri-SemiBold";
   font-family: "DancingScript-Regular";
-  font-family: "EBGaramond-Regular";
+  font-family: "EBGaramond-Regular"; */
   font-family: "Tangerine-Regular";
   font-size: 3rem;
 }
 .c-booking__banner-details {
   margin-top: 1rem;
   color: var(--Muddy-Grass);
-  font-family: "Tangerine-Bold";
-  font-family: "EBGaramond-Regular";
+  /* font-family: "Tangerine-Bold";
+  font-family: "EBGaramond-Regular"; */
   font-family: "ElMessiri-SemiBold";
   font-size: 1.2rem;
 }

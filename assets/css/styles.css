@@ -8,9 +8,7 @@
 
 @import url("./welcome/welcome.css");
 
-h1 {
-  font-family: "DancingScript-Bold";
-}
+@import url("./add-ons/flickity.css");
 
 * {
   box-sizing: border-box;
