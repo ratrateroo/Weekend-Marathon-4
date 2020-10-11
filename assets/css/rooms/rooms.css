@@ -10,7 +10,7 @@
 
 .c-rooms__holder {
   height: 100%;
-  width: 80%;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -63,4 +63,9 @@
   font-family: "DancingScript-SemiBold";
   text-align: center;
   font-size: 1.5rem;
+}
+
+.c-rooms__carousel {
+  width: 100%;
+  height: 100%;
 }
