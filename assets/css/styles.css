@@ -6,6 +6,8 @@
 
 @import url("./colors/colors.css");
 
+@import url("./welcome/welcome.css");
+
 h1 {
   font-family: "DancingScript-Bold";
 }
