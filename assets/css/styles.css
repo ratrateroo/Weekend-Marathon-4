@@ -7,7 +7,10 @@
 @import url("./colors/colors.css");
 
 @import url("./welcome/welcome.css");
+
 @import url("./rooms/rooms.css");
+
+@import url("./news/news.css");
 
 @import url("./add-ons/flickity.css");
 

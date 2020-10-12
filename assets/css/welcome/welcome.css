@@ -1,12 +1,9 @@
 .c-welcome {
   position: relative;
-  height: 100vh;
   width: 100vw;
-  /* background-color: var(--Cloudy-White); */
-  /* background-color: tomato; */
   display: flex;
   justify-content: center;
-  margin: 5rem auto;
+  /* margin: 3rem auto; */
 }
 
 .c-welcome__holder {
@@ -14,15 +11,15 @@
   width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .c-welcome__title {
   position: relative;
   width: 100%;
-  height: 6rem;
-  margin: 5rem auto;
+  height: 100%;
+  margin: 3rem auto;
 }
 
 .c-welcome__title-content {
@@ -57,13 +54,16 @@
 }
 
 .c-welcome__message {
+  margin: 3rem auto;
   width: 100%;
+  height: 100%;
 }
 
 .c-welcome__message-content {
   font-family: "DancingScript-SemiBold";
   text-align: center;
   font-size: 1.5rem;
+  line-height: 3rem;
 }
 
 .c-welcome__images {
@@ -73,12 +73,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  margin: 3rem auto;
 }
 
 .c-welcome__image-holder {
   width: 25vw;
   height: 25vw;
-  background-color: pink;
 }
 
 .c-welcome__image {
