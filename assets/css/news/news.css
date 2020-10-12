@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   /* margin: 3rem auto; */
+  /* background-color: gray; */
 }
 
 .c-news__holder {
@@ -64,4 +65,93 @@
   text-align: center;
   font-size: 1.5rem;
   line-height: 3rem;
+}
+
+.c-news__posts {
+  /* background-color: goldenrod; */
+  width: 100%;
+  height: 60vh;
+}
+
+.c-news__posts-holder {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-news__posts-items {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-news__post-large {
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+}
+.c-news__post-small {
+  height: 100%;
+  margin-left: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* background-color: green; */
+}
+
+.c-news__post-small-holder {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  /* background-color: mediumseagreen; */
+}
+
+.c-news__post-small .c-news__posts-item {
+  width: 45%;
+  height: 30vh;
+
+  /* background-color: greenyellow; */
+}
+
+.c-news__posts-item {
+  list-style: none;
+  font-family: "ElMessiri-Regular";
+}
+
+.c-news__post-image-holder {
+  width: 100%;
+  height: 100%;
+}
+
+.c-news__post-image {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.c-news__post-category {
+  font-family: "ElMessiri-Regular";
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  color: var(--Limestone);
+}
+
+.c-news__post-title {
+  font-family: "EBGaramond-Regular";
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+  color: var(--Shadow-Green);
+}
+
+.c-news__post-content {
+  font-family: "ElMessiri-Regular";
+  font-size: 1rem;
+  margin-top: 0.8rem;
+  color: var(--Shadow-Green);
 }
